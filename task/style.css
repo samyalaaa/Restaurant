@@ -1,0 +1,467 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.clr{
+    clear: both;
+   }
+.home{
+    height: 600px;
+    background-image: url("../task/images/shutterstock_277750193.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: auto;
+    
+}
+.home .text-home{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+.home .text-home img{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 40%;
+    height: 220px;
+    line-height: 27px;
+    text-align: center;
+}
+.home .text-home h1{
+    color: rgb(255,255,255);
+    font-family: "Alegreya", serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 40.8px;
+    margin-bottom: 18px;
+}
+.home .text-home p{
+    color: rgba(255,255,255,0.92);
+    font-family: "Dancing Script";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.76px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.home .text-home .btn{
+    padding: 18px;
+    margin: 10px 5px;
+    background-color: rgb(193, 171, 132);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+.home .text-home .btn2{
+    color: black;
+    background-color: white;
+}
+
+.family-business{
+    padding: 60px 0;
+}
+.family-business .family{
+    width: 50%;
+    float: left;
+    padding: 40px;
+}
+.family-business .f{
+    margin-top: 90px;
+}
+.family-business .family h2{
+    color: rgb(37,48,72);
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Alegreya", serif;
+    line-height: 49.6px;
+}
+.family-business .family h3{
+    color: rgb(193, 171, 132);
+    font-family: "Dancing Script";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.6px;
+    margin: 10px 0 20px 0;
+}
+.family-business .family p{
+    color: rgb(104, 104, 104);
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.48px;
+    margin-bottom: 30px;
+}
+.family-business .family ul li{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.6px;
+    font-family: "Alegreya Sans", sans-serif;
+    color: rgb(104, 104,104);
+    list-style-type: none;
+}
+.family-business .family ul li span{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3;
+    background-color: rgb(193, 171, 132);
+    color: white;
+}
+
+.Reviewers{
+    padding: 60px 0;
+    background-color: rgb(248, 248, 248);
+}
+.Reviewers .reviewers{
+    width: 50%;
+    float: left;
+    padding: 40px;
+}
+.Reviewers .reviewers h2{
+    color: rgb(37,48,72);
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Alegreya", serif;
+    line-height: 49.6px;
+}
+.Reviewers .reviewers h3{
+    color: rgb(193, 171, 132);
+    font-family: "Dancing Script";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.6px;
+    margin: 10px 0 40px 0;
+}
+.Reviewers .reviewers p{
+    color: rgb(104, 104, 104);
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.48px;
+}
+.Reviewers .reviewers ul li{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.6px;
+    font-family: "Alegreya Sans", sans-serif;
+    color: rgb(104, 104,104);
+    list-style-type: none;
+}
+.Reviewers .reviewers ul li span{
+    margin-right: 10px;
+    color: rgb(193, 171, 132);
+}
+
+.image .containerr{
+    background-color: rgb(219, 26, 26);
+    background-image: url("../task/images/photo_2024-11-17_14-25-21.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    font-size: 18px;
+    font-weight: 400;
+    height: 501px;
+    width: 680x;
+    margin: 0 10px 70px 10px; 
+    overflow: auto;
+}
+.image{
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 20px;
+}
+.dish h2{
+    text-align: center;
+    columns: rgb(37, 48, 72);
+    font-family: "Alegreya", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.6px;
+}
+.dish h3{
+    color: rgb(193, 171, 132);
+    font-family: "Dancing Script";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.6px;
+    text-align: center;
+    margin: 20px;
+}
+.dish{
+    padding: 60px 0;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+}
+.dish .first-div .dishes{
+    width: 33.33333%;
+    float: left;
+    padding: 20px;
+}
+.dish .first-div .dishes h4{
+    color: rgb(37, 48, 72);
+    font-family: "Alegreya", serif;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    margin: 20px;
+}
+.dish .first-div .dishes p{
+    color: rgb(104, 104, 104);
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.5px;
+    text-align: center;
+}
+.second-div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dish .second-div .dishes{
+    width: 33.33333%;
+    float: left;
+    padding: 20px;
+}
+.dish .second-div .dishes h4{
+    color: rgb(37, 48, 72);
+    font-family: "Alegreya", serif;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    margin: 20px;
+}
+.dish .second-div .dishes p{
+    color: rgb(104, 104, 104);
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.5px;
+    text-align: center;
+}
+.dish .putton{
+    color: rgb(255, 255, 255);
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 23.4px;
+    text-align: center;
+    background-color:rgb(193, 171, 132) ;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px ;
+    margin-bottom: 0;
+}
+.dish .putton span{
+    margin-left: 10px;
+}
+.Testimonials .containerrr{
+    margin-top: 50px;
+    height: 750px;
+    background-image: url("../task/images/shutterstock_277750193.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: auto;
+
+}
+.Testimonials{
+    background-color: rgb(248, 248, 248);
+    padding-top: 20px;
+}
+
+.Testimonials .our-test{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+.Testimonials .our-test h3{
+    color: rgb(255,255,255);
+    font-family: "Alegreya", serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41.8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.Testimonials .our-test p{
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 50.8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.92);
+}
+.Testimonials .our-test span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.5;
+    color: white;
+    border: 3px solid rgba(255, 255, 255, 0.7);
+}
+.contact-information{
+    background-color: white;
+    padding: 60px 0;
+}
+.contact-information .item3{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.contact-information .item3 h3{
+    margin: 20px 0;
+    font-size: 25.5px;
+    font-weight: 400;
+    line-height: 35.19px;
+    font-family: "Alegreya";
+    color: rgb(48, 48,48);
+}
+.contact-information .item3 p{
+    margin: 20px 0;
+    width: 90%;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31.6px;
+    font-family: "Alegreya Sans", sans-serif;
+    color: rgb(104, 104,104);
+}
+
+.contact-information .item3 ul li{
+    margin: 20px 0;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31.6px;
+    font-family: "Alegreya Sans", sans-serif;
+    color: rgb(104, 104,104);
+    list-style-type: none;
+}
+.contact-information .item3 ul li span{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.5;
+    background-color: rgb(193, 171, 132);
+    color: white;
+}
+
+.footer{
+    background-color: rgb(64, 61, 56);    ;
+    padding: 60px 0;
+    background-attachment: scroll;
+    color: rgb(121, 121, 121);
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+    padding:  50px ;
+}
+.footer .last{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+.footer .last h3{
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px ;
+    font-family: "Alegreya";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.4px;
+}
+.footer .last p{
+    color: rgb(150, 150, 150);
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.7px;
+    margin-bottom: 20px;
+}
+.footer .last ul li {
+    color: rrgb(150, 150, 150);
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33.7px;
+    margin-top: 7px;
+    padding-bottom: 6px;
+    text-align: left;
+    list-style-type: none;
+}
+.footer .last ul li span{
+    margin-right: 10px;
+}
+.last-card{
+    height: 500px;
+    background-color: rgb(53, 51, 48);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: auto;
+}
+.last-card .lastcard{
+    text-align: center;
+    margin-top: 80px;
+}
+.last-card .lastcard img{
+    margin-bottom: 20px 0 ;
+    font-size: 18px;
+    font-weight: 400;
+    width: 40%;
+    height: 220px;
+    line-height: 27px;
+    text-align: center;
+}
+.last-card .lastcardd{
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(119, 119, 119);
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.7px;
+}
+.last-card span{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3;
+    background-color: rgb(72, 69, 64);
+    color:rgb(140, 138, 134);
+}
+.last-card .icons{
+    text-align: center;
+    margin-top: 20px;
+    
+}
